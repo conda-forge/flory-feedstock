@@ -1,13 +1,13 @@
 {% set name = "flory" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flory-{{ version }}.tar.gz
-  sha256: 64a329db0d2fa8cb5078ff8bd51eb9b779b1217d8e081ab129b2ffcd1f7c3981
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/flory-{{ version }}.tar.gz
+  sha256: a25361a4781da24bd6afb295efe0ec6f761be9967b0c2aca402aaa6fee056a5f
 
 build:
   noarch: python
